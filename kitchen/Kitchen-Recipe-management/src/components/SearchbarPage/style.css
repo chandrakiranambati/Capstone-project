@@ -1,0 +1,75 @@
+.jumbotron {
+  /* background-image: linear-gradient(
+      rgba(242, 6, 6, 0.013),
+      rgba(13, 234, 68, 0.168),
+      rgba(234, 135, 13, 0.207)
+    ),
+    url("https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"); */
+  background-image: linear-gradient(
+      rgba(60, 58, 58, 0.013),
+      rgba(56, 59, 56, 0.168),
+      rgba(87, 86, 85, 0.207)
+    ),
+    url("https://shtheme.com/preview/orgafe/img/bg/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* search box styles */
+
+.button-input {
+  width: 60%;
+  margin-top: 40px;
+}
+
+.search_button {
+  position: relative;
+  cursor: pointer;
+  background-color: rgba(9, 126, 87, 0.819);
+  background-color: rgba(216, 9, 9, 0.959);
+  border: 3px solid rgba(255, 0, 72, 0.833);
+  color: #fff;
+  border: none;
+  max-width: 150px;
+  padding: 12px;
+  padding: 10px 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.search_button:hover {
+  background-color: rgba(136, 136, 136, 0.688);
+  color: rgb(13, 13, 13);
+}
+.card_button {
+  position: relative;
+  cursor: pointer;
+  background-color: rgba(9, 126, 87, 0.819);
+  color: #fff;
+  border: none;
+  max-width: 150px;
+  padding: 12px;
+  padding: 10px 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 10px;
+  transition: 0.5s;
+  font-size: 17px;
+  font-weight: 600;
+}
+.card_button:hover {
+  background-color: rgba(37, 192, 133, 0.688);
+  color: rgb(9, 1, 1);
+}
+
+@media (max-width: 991px) {
+  .button-input {
+    width: 90%;
+  }
+}
